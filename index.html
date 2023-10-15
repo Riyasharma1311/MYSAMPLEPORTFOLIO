@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Riya Sharma</h1>
+        <h2>IT-3</h2>
+    </header>
+
+    <section class="contact">
+        <h2>My Socials:</h2>
+        <ul>
+            <li><strong>Email:</strong> sharmariya11133@gmail.com</li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/riya-sharma-234196248/">LinkedIn
+                    Profile</a>
+            </li>
+
+        </ul>
+    </section>
+
+    <section class="contact-form">
+        <h2>Contact Me</h2>
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+
+</html>
